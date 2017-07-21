@@ -5,6 +5,6 @@ The scripts is created to run OpenBTS services on Ubuntu 16.04 with ```systemd``
 
 To run OpenBTS, Asterisk, SipAuthServe and Smqueue services on Ubuntu 16.04:
 1. Copy all files from folder systemd to ```/etc/systemd/system/``` folder on your computer.
-2. Execute ```systemctl``` reload and all services will be availible from systemctl utility.
+2. Execute ```systemctl``` reload and all services will be availible from ```systemctl``` utility.
 
 To start/stop all services, use ```openbts-start.sh``` and ```openbts-stop.sh```.
